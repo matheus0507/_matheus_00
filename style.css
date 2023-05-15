@@ -1,9 +1,23 @@
 .cabecalho {
-    background-color: #424e61;
+    background-color: hsl(217, 19%, 32%);
     color: rgb(255, 255, 255);
     display:flex;
     justify-content: space-around;
+    padding: 24px 0;
 }
 .cabecalho-imagem{
-    width:20%;
+    width: 15%
+}
+.cabecalho-lista-item{
+    background-color: hsl(217, 19%, 32%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 16px;
+    padding: 24px;
+    font-size: 24px;
+}
+* {
+    margin: 0;
+    padding: 0;
 }
